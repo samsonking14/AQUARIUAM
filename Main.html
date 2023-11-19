@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="aqua.png" />
+    <title>AQUA</title>
+    <link rel="stylesheet" href="Main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  </head>
+  <body>
+
+
+    <header>
+      <a href="#" class="brand"><img src="QUA.png"></a>
+      <button class="dark" onclick="myFunction()"><img src="dark-mode.png"
+        style="width: 80px;padding-top: 30px;" /></button>
+      <div class="menu">
+        <div class="btn">
+          <i class="fas fa-times close-btn"></i>
+        </div>
+        <a href="#shop">Shop</a>
+        <a href="#About">About</a>
+        <a href="#Contact">Contact</a>
+      </div>
+      <button  class='button signin'>Sign In</button>
+      <div class="btn">
+        <i class="fas fa-bars menu-btn"></i>
+      </div>
+    </header>
+
+
+
+    <section class="section-main">
+      <div class="content">
+        <h1>Are You Readdy !</h1>
+        <h2> To For This</h2>
+      </div>
+      <button  class='button n-button i-b'>Explore</button>
+      <div class="video">
+            <video autoPlay muted loop id='myvideo'>
+                <source  src="seasun.mp4" type='video/mp4'></source>
+            </video>
+        </div>
+        
+    </section>
+
+
+
+    <section class="s-shop" id="shop">
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img src="fish/fishbg/underwater.png" style="width:100%">
+          <div class="text">
+            <h1 style="margin-left: 250px; font-size: 120px;">A Water<span class="secndry"> World</span> </h1><br>
+            <a href="shop-main.html"><button style="margin-left: 250px; width: 10%; padding: 30px 30px;font-size: 2rem;  " class="tb">Explore</button></a>
+          </div>
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="fish/fishbg/coral underwater.png" style="width:100%">
+          <div class="text">
+            <h1 style="margin-right: 650px; font-size: 80px;">Welcome To<span class="secndry"> Coral Reef</span><br> Tt's Healthy For Fish</h1><br>
+            <a href="shop-main.html"><button style="margin-right: 650px; width: 10%; padding: 30px 30px;font-size: 2rem;  " class="tb">Explore</button></a>
+          </div>
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="fish/fishbg/decoration underwater.png" style="width:100%">
+          <div class="text">
+            <h1 style="margin-left: 650px; font-size: 80px; ">Decoration Need To Setup <br> For Your <span class="secndry">AQUARIUAM</span></h1><br>
+            <a href="shop-main.html"><button style="margin-left: 650px; width: 10%; padding: 30px 30px;font-size: 2rem;  " class="tb">Explore</button></a>
+          </div>
+        </div>
+        
+        </div>
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+    </section>
+
+
+    <section class="a-about" id="About">
+      <img class="cor" src="fish/fishbg/coral reef 5.webp">
+      <h1>ABOUT US</h1>
+      <p>Hundreds of freshwater and saltwater fish available.<br> Wide selection of aquatic plants, vines, and corals.<br> Fish food, supplements, medication, and other aquarium supplies.<br>We have the capability and experience to handle <br>all aspects of your next aquarium project<br> from the initial design of your dream tank,<br> to installation of equipment and aquatic life.</p>
+      <img class="fish" src="fish/fishbg/aboutus.png">
+    </section>
+
+
+    <section class="c-contact" id="Contact">
+      <form>      
+        <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+        <input name="email" type="text" class="feedback-input" placeholder="Email" />
+        <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+        <input type="submit" value="SUBMIT"/>
+      </form>
+      <div class="gall">
+      <a href="shop-main.html"><img src="fish/fish/Fighting fish.png"></a>
+      <a href="shop-main.html"><img src="fish/fish/platium red big ear guppy.png"></a>
+      <a href="shop-main.html"><img src="fish/fish/Betta Fish.png"></a>
+        </div>
+    </section>
+
+     <!-- 
+    - #FOOTER
+  -->
+
+  <footer id="contact" class="footer" style="background-image: url('./fish/footer-bg.jpg')">
+
+    <div class="footer-top section">
+      <div class="fcontainer">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo"><img src="QUA.png"></a>
+
+          <p class="footer-text">
+            If you have any question, please contact us at <a href="mailto:selvapandi322@gmail.com"
+              class="link">support@gmail.com</a>
+          </p>
+
+          <ul type="none" class="contact-list">
+
+            <li class="contact-item">
+              <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+
+              <address class="address">
+                30 Buttonwood St.Pataskala OH 43062
+              </address>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+              <a href="tel:+16234567891011" class="contact-link">(+91)-624-569-7897</a>
+            </li>
+
+          </ul>
+
+          <ul type="none" class="social-list">
+
+            <li>
+              <a class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul type="none" class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Corporate</p>
+          </li>
+
+          <li>
+            <a class="footer-link">Careers</a>
+          </li>
+
+          <li>
+            <a class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a class="footer-link">Contact Us</a>
+          </li>
+
+          <li>
+            <a class="footer-link">FAQs</a>
+          </li>
+
+          <li>
+            <a class="footer-link">Vendors</a>
+          </li>
+
+          <li>
+            <a class="footer-link">Affiliate Program</a>
+          </li>
+
+        </ul>
+
+        <ul type="none" class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Information</p>
+          </li>
+
+          <li>
+            <a class="footer-link">Online Store</a>
+          </li>
+
+          <li>
+            <a class="footer-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a class="footer-link">Refund Policy</a>
+          </li>
+
+          <li>
+            <a class="footer-link">Shipping Policy</a>
+          </li>
+
+          <li>
+            <a class="footer-link">Terms of Service</a>
+          </li>
+
+          <li>
+            <a class="footer-link">Track Order</a>
+          </li>
+
+        </ul>
+
+        <ul type="none" class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Services</p>
+          </li>
+
+          <li>
+            <a class="footer-link">Fishing</a>
+          </li>
+
+          <li>
+            <a class="footer-link">Hunting</a>
+          </li>
+
+          <li>
+            <a class="footer-link">Travel Services</a>
+          </li>
+
+          <li>
+            <a class="footer-link">Safe & secure Insurance</a>
+          </li>
+
+          <li>
+            <a class="footer-link">Toys</a>
+          </li>
+
+          <li>
+            <a class="footer-link">Center</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="fcontainer">
+
+        <p class="copyright">
+          &copy; 2023 Made with ♥ by <a class="copyright-link">SP</a>
+        </p>
+      </div>
+    </div>
+
+  </footer>
+
+
+    <script src="index.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  </body>
+</html>
