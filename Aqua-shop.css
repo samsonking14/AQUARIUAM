@@ -411,16 +411,17 @@ img{
   
 }
 
-.food-price {
-  color: grey;
+.price {
+  color: crimson;
   font-size: 22px;
+  font-weight: 600;
 }
 .content button {
   border: none;
   outline: 0;
   padding: 12px;
-  color: black;
-  background-color: #fff;
+  color: aqua;
+  background-color: black;
   text-align: center;
   cursor: pointer;
   font-size: 18px;
