@@ -124,7 +124,7 @@ header .btn{
     font-size: 50px;
     color: #1903ab;
 }
-.button{
+.button {
   width: 7%;
   height: 40px;
   border-radius: 40px;
@@ -153,6 +153,7 @@ header .btn{
     background: black;
     box-shadow: none;
     color: aqua;
+    width: 150%;
 }
 .signin:hover{
     background: #01beff;
