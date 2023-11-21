@@ -225,39 +225,39 @@ img{
 
 .hunt .hd{
   font-size: 50px;
-  color: gold;
+  color:crimson;
   text-decoration: underline;
   top: 30px;
   position: relative;
 }
 .tank .hd{
   font-size: 50px;
-  color: gold;
+  color:crimson;
   text-decoration: underline;
   position: relative;
 }
 .toy .hd{
   font-size: 50px;
-  color: gold;
+  color:crimson;
   text-decoration: underline;
   position: relative;
 }
 .equip .hd{
   font-size: 50px;
-  color: gold;
+  color:crimson;
   text-decoration: underline;
   position: relative;
 }
 .aqua-fi .hd{
   font-size: 50px;
-  color: gold;
+  color:crimson;
   text-decoration: underline;
   position: relative;
   word-spacing: 20px;
 }
 .coral .hd{
   font-size: 50px;
-  color: gold;
+  color:crimson;
   text-decoration: underline;
   position: relative;
   word-spacing: 20px;
@@ -327,8 +327,10 @@ img{
   background: linear-gradient(180deg,#1DA2D8,#7FCDFF);
 }
 .aquafishi{
-  border-radius: 100%;
+  border-radius: 100px;
   top: auto;
+  width: 55%;
+  margin-top: -100px;
 }
 .textify{
   text-align: center;
