@@ -105,6 +105,7 @@ header .btn{
     margin-right: 1100px;
     margin-bottom: 30px;
     margin-top: 400px;
+    flex: 1;
 }
 
 .section-main .content h1{
@@ -124,6 +125,10 @@ header .btn{
     font-size: 50px;
     color: #1903ab;
 }
+.content>p{
+    font-size: 3rem;
+    font-weight: 540;
+}
 .button {
   width: 7%;
   height: 40px;
@@ -135,17 +140,7 @@ header .btn{
   font-size: 1rem;
   font-weight: 540;
 }
-.i-b {
-    background: black;
-    box-shadow: none;
-    margin-right: 1550px;
-    color: aqua;
-    text-decoration: none;
-}
-.i-b:hover{
-    background: #01beff;
-    color: black;
-}
+
 
 
 
